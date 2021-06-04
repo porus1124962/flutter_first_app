@@ -1,7 +1,14 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_first_app/pages/home_page.dart';
 
-class LoginPage extends StatelessWidget{
+
+class LoginPage extends StatefulWidget{
+  @override
+  _LoginPageState createState() => _LoginPageState();
+}
+
+class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
@@ -10,46 +17,94 @@ class LoginPage extends StatelessWidget{
       body: SingleChildScrollView(
         child: Container(
           color: Colors.white,
+          height: 1020,
           child: Column(
+
             children: [
-              Image.asset(
-                "assets/images/login_image.png",
-                height: 250,
-                fit: BoxFit.fill,
+              Container(
+                width:500,
+                height: 250.0,
+                decoration: BoxDecoration(
+                    image: DecorationImage(
+                        image: AssetImage("assets/images/teal.jpg"),
+                        fit: BoxFit.cover
+                    )
+                ),
+                child:Column(
+                  children:[
+
+                    SizedBox(
+
+                      height:110.0,
+
+                    ),
+
+                    CircleAvatar(
+                      radius: 60.0,
+                      backgroundColor: Colors.teal,
+                      child: CircleAvatar(
+                        backgroundImage: AssetImage("assets/images/login_image.png"),
+                        radius: 56.0,
+                      ),
+                    ),
+                  ]
+                ),
+
+
               ),
+
               SizedBox(
+
                 height:20.0,
+
               ),
               Text(
-                "Welcom",
+                "Welcome",
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,
                 ),
               ),
+
+              SizedBox(
+                height: 3.0,
+                width: 100.0,
+                child: const DecoratedBox(
+                  decoration: const BoxDecoration(
+                      color: Colors.teal
+                  ),
+                ),
+              ),
               SizedBox(
                 height:20.0,
               ),
-              
+
               Padding(
                   padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 32.0),
                   child: Column(
                     children: [
                       TextFormField(
                         decoration: InputDecoration(
+                            prefixIcon: Icon(Icons.email),
                             hintText: "Enter username",
                             labelText: "Username"
                         ),
                       ),
+                      SizedBox(
+                        height:20.0,
+                      ),
+
                       TextFormField(
                         obscureText: true,
+
                         decoration: InputDecoration(
+                            prefixIcon: Icon(Icons.password),
                             hintText: "Enter password",
                             labelText: "Password",
                         ),
                       ),
                       SizedBox(
-                        height:20.0,
+                        height:40.0,
                       ),
                       ElevatedButton(
                           child:Text("Login"),
@@ -66,7 +121,7 @@ class LoginPage extends StatelessWidget{
                   ),
 
               )
-              
+
 
             ],
           ),
