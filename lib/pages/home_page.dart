@@ -26,7 +26,19 @@ class _HomePageBackState extends State<HomePageBack> {
       child: Center(
         child: Column(
           children: [
+              InkWell(
+                onTap: (){
+                },
+                child: Container(
+                  width: 250,
+                  height: 250,
+                  alignment: Alignment.center,
 
+                  child:
+                  Image(image: AssetImage('assets/images/sea.jpg')),
+
+                ),
+              ),
           ],
         ),
       ),

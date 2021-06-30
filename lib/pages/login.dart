@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_first_app/pages/home_page.dart';
+import 'package:flutter_first_app/widget/drawer.dart';
 
 
 class LoginPage extends StatefulWidget{
@@ -127,6 +128,7 @@ class _LoginPageState extends State<LoginPage> {
           ),
         ),
       ),
+      drawer: MyDrawer(),
     );
   }
 }

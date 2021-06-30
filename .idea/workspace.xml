@@ -23,7 +23,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b7f68bd-fc3b-4099-af67-6c2a941ae68b" name="Default Changelist" comment="log in rounded button">
+      <change afterPath="$PROJECT_DIR$/assets/images/dice/d1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/dice/d2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/dice/d3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/dice/d4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/dice/d5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/dice/d6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/widget/drawer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/f5bb276aaae275adada353cced7b1f9e/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/f5bb276aaae275adada353cced7b1f9e/.filecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/f5bb276aaae275adada353cced7b1f9e/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/f5bb276aaae275adada353cced7b1f9e/app.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/f5bb276aaae275adada353cced7b1f9e/debug_android_application.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/f5bb276aaae275adada353cced7b1f9e/debug_android_application.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/f5bb276aaae275adada353cced7b1f9e/flutter_assets.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/f5bb276aaae275adada353cced7b1f9e/flutter_assets.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/f5bb276aaae275adada353cced7b1f9e/outputs.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/f5bb276aaae275adada353cced7b1f9e/outputs.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/dice/dice1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/d1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/dice/dice2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/dice2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/dice/dice3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/dice3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/dice/dice4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/dice4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/dice/dice5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/dice5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/dice/dice6.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/dice6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/khad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/AssetManifest.json.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/AssetManifest.json.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_build.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_build.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/AssetManifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/home_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/login.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/login.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622793817292</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="log in rounded button">
+      <created>1622794567940</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1622794567940</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,10 +174,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="log in rounded button" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="93" y="93" width="1350" height="638" key="AVDManager" timestamp="1622786958441">
+    <state x="93" y="93" width="1350" height="638" key="AVDManager" timestamp="1624907928588">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="93" y="93" width="1350" height="638" key="AVDManager/0.0.1536.824@0.0.1536.824" timestamp="1622786958441" />
+    <state x="93" y="93" width="1350" height="638" key="AVDManager/0.0.1536.824@0.0.1536.824" timestamp="1624907928588" />
     <state x="852" y="201" key="FileChooserDialogImpl" timestamp="1622794409616">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -144,33 +190,33 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="843" y="121" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1622393193925" />
-    <state width="789" height="224" key="GridCell.Tab.0.bottom" timestamp="1622793751905">
+    <state width="721" height="220" key="GridCell.Tab.0.bottom" timestamp="1624930791968">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="789" height="224" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622793751905" />
-    <state width="789" height="224" key="GridCell.Tab.0.center" timestamp="1622793751905">
+    <state width="721" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1624930791968" />
+    <state width="721" height="220" key="GridCell.Tab.0.center" timestamp="1624930791968">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="789" height="224" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622793751905" />
-    <state width="789" height="224" key="GridCell.Tab.0.left" timestamp="1622793751904">
+    <state width="721" height="220" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1624930791968" />
+    <state width="721" height="220" key="GridCell.Tab.0.left" timestamp="1624930791968">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="789" height="224" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622793751904" />
-    <state width="789" height="224" key="GridCell.Tab.0.right" timestamp="1622793751905">
+    <state width="721" height="220" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1624930791968" />
+    <state width="721" height="220" key="GridCell.Tab.0.right" timestamp="1624930791968">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="789" height="224" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622793751905" />
-    <state x="664" y="191" key="Vcs.Push.Dialog.v2" timestamp="1622794535814">
+    <state width="721" height="220" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1624930791968" />
+    <state x="664" y="191" key="Vcs.Push.Dialog.v2" timestamp="1622794596940">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="664" y="191" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622794535814" />
-    <state x="754" y="192" key="run.anything.popup" timestamp="1622790336298">
+    <state x="664" y="191" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622794596940" />
+    <state x="754" y="192" width="672" height="677" key="run.anything.popup" timestamp="1622881057889">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="754" y="192" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1622790336298" />
-    <state x="760" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1622705816978">
+    <state x="754" y="192" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1622881057889" />
+    <state x="760" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1624913563413">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="760" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1622705816978" />
+    <state x="760" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1624913563413" />
   </component>
 </project>
