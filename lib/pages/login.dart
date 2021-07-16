@@ -12,13 +12,13 @@ class LoginPage extends StatefulWidget{
 class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context){
     return Scaffold(
+
       appBar: AppBar(
-        title: Text("Gallary"),
+        title: Text("Gallary",style: TextStyle(color: Colors.black)),
       ),
       body: SingleChildScrollView(
         child: Container(
           color: Colors.white,
-          height: 1020,
           child: Column(
 
             children: [

@@ -1,0 +1,44 @@
+{
+  "products":[
+    {
+      "id":1,
+      "name": "Xiaomi Mi 11",
+      "desc": "Xiaomi has unveiled a smartphone Mi11 to the market",
+      "price": 899,
+      "color": "#60a832",
+      "image": "https://www.whatmobile.com.pk/admin/images/Xiaomi/XiaomiMi11-b.jpg"
+    },
+    {
+      "id":2,
+      "name": "Vivo V21",
+      "desc": "Vivo V21 - A Powerful Standard Smartphone",
+      "price": 372,
+      "color": "#223d10",
+      "image": "https://www.whatmobile.com.pk/admin/images/Vivo/VivoV21-b.jpg"
+    },
+    {
+      "id":3,
+      "name": "Samsung Galaxy A22",
+      "desc": "Samsung unveils its new smartphone Galaxy A22,",
+      "price": 372,
+      "color": "#223d10",
+      "image": "https://www.whatmobile.com.pk/admin/images/Samsung/SamsungGalaxyA22-b.jpg"
+    },
+    {
+      "id":4,
+      "name": "Infinix Note 10 Pro",
+      "desc": "Infinix will introduce its new smartphone Mi11 to the market",
+      "price": 372,
+      "color": "#223d10",
+      "image": "https://www.whatmobile.com.pk/admin/images/Infinix/InfinixNote10Pro-b.jpg"
+    },
+    {
+      "id":5,
+      "name": "OnePlus 8T",
+      "desc": "OnePlus will unveil a new 8T 12GB Mi11 to the market.",
+      "price": 372,
+      "color": "#223d10",
+      "image": "https://www.whatmobile.com.pk/admin/images/OnePlus/OnePlus8T12GB-b.jpg"
+    }
+  ]
+}
