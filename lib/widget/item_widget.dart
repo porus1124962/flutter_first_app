@@ -34,7 +34,9 @@ class ItemWidget extends StatelessWidget {
 
               //image item widget start
               Container(
-                child: Image.network(item.image,width: 100,fit: BoxFit.contain),
+                child: Hero(
+                  tag: Key(item.id.toString()),
+                    child: Image.network(item.image,width: 100,fit: BoxFit.contain)),
                 padding: EdgeInsets.all(8),
                   decoration: BoxDecoration(
                     shape: BoxShape.rectangle,
