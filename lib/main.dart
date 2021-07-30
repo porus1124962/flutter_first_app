@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_first_app/pages/cart.dart';
 import 'package:flutter_first_app/pages/detail_page.dart';
 import 'package:flutter_first_app/pages/login.dart';
+import 'package:flutter_first_app/pages/routes.dart';
 import 'package:flutter_first_app/widget/theme.dart';
 import 'models/catalog.dart';
 import 'pages/home_page.dart';
@@ -20,7 +22,8 @@ class MyApp extends StatelessWidget{
 
       routes: {
         "/":(context) => LoginPage(),
-        "/home":(context) => HomePage(),
+        MyRoutes.homeRoute:(context) => HomePage(),
+        MyRoutes.cartRoute:(context) => AddToCart(),
         // "/detail":(context) => detailView(catalog:catalogAsync()),
       },
     );

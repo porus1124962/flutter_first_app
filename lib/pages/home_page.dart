@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_first_app/models/catalog.dart';
 import 'package:flutter_first_app/pages/detail_page.dart';
+import 'package:flutter_first_app/pages/routes.dart';
 import 'package:flutter_first_app/widget/item_widget.dart';
 import 'package:velocity_x/velocity_x.dart';
 
@@ -11,7 +12,47 @@ class HomePage extends StatelessWidget{
   Widget build(BuildContext context){
     return SafeArea(
       child: Scaffold(
+        extendBody: true,
+        floatingActionButton: FloatingActionButton(
+          child: Icon(Icons.add_shopping_cart),
+          onPressed: () =>Navigator.pushNamed(context, MyRoutes.cartRoute) ,
+        ),
+        bottomNavigationBar: BottomAppBar(
+          notchMargin: 5,
+          shape: CircularNotchedRectangle(),
+          color: Colors.white,
+          child: BottomNavigationBar(
+            type: BottomNavigationBarType.fixed,
+            elevation: 0,
+            backgroundColor: Colors.transparent,
+            items: [
+              BottomNavigationBarItem(
+                icon: Icon(Icons.home),
+                label: "Home"
+              ),
+              BottomNavigationBarItem(
+                icon: Icon(Icons.wallet_membership),
+                label: "Wallet",
+              ),
+              BottomNavigationBarItem(
+                icon: Icon(Icons.collections),
+                label: "Collection",
+              ),
+              BottomNavigationBarItem(
+                icon: Icon(Icons.person),
+                label: "Profile",
+              ),
+            ],
+          ),
+        ),
+
+
+        floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+
+
+
         body: HomePageBack(),
+
       ),
     );
   }

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_first_app/models/catalog.dart';
 import 'package:velocity_x/velocity_x.dart';
-
+import 'package:flutter_first_app/main.dart';
 class detailView extends StatelessWidget {
   final Item catalog;
 
@@ -21,12 +21,12 @@ class detailView extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),),
 
-              ElevatedButton(onPressed: (){},
+              ElevatedButton(onPressed: ()=> Navigator.pushNamed(context, '/cartRoute'),
                   style: ButtonStyle(
                     //backgroundColor: MaterialStateProperty.all(),
                       shape: MaterialStateProperty.all(StadiumBorder())
                   ),
-                  child: Text("Buy",style: TextStyle(
+                  child: Text("Add to Cart",style: TextStyle(
                     fontSize: 14.0,
                     color: Colors.white,
                   ),))
