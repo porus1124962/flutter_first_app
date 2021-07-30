@@ -11,29 +11,35 @@ class detailView extends StatelessWidget {
     return SafeArea(
       bottom: false,
         child: Scaffold(
-          backgroundColor: Colors.white,
-          bottomNavigationBar: ButtonBar(
-            alignment: MainAxisAlignment.spaceBetween,
-            buttonPadding:  EdgeInsets.fromLTRB(0, 0, 10, 0),
-            children: [
-              Text(catalog.price.toString()+"\$",style: TextStyle(
-                fontSize: 16.0,
-                fontWeight: FontWeight.bold,
-              ),),
+          backgroundColor:Theme.of(context).primaryColor,
+          bottomNavigationBar: Container(
+            color: Theme.of(context).canvasColor,
+            child: ButtonBar(
 
-              ElevatedButton(onPressed: ()=> Navigator.pushNamed(context, '/cartRoute'),
-                  style: ButtonStyle(
-                    //backgroundColor: MaterialStateProperty.all(),
-                      shape: MaterialStateProperty.all(StadiumBorder())
-                  ),
-                  child: Text("Add to Cart",style: TextStyle(
-                    fontSize: 14.0,
-                    color: Colors.white,
-                  ),))
-            ],
+              alignment: MainAxisAlignment.spaceBetween,
+              buttonPadding:  EdgeInsets.fromLTRB(0, 0, 10, 0),
+              children: [
+                Text(catalog.price.toString()+"\$",style: TextStyle(
+                  fontSize: 16.0,
+                  color:  Theme.of(context).accentColor,
+                  fontWeight: FontWeight.bold,
+                ),),
+
+                ElevatedButton(onPressed: ()=> Navigator.pushNamed(context, '/cartRoute'),
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all(Theme.of(context).primaryColor),
+                        shape: MaterialStateProperty.all(StadiumBorder())
+                    ),
+                    child: Text("Add to Cart",style: TextStyle(
+                      fontSize: 14.0,
+                      color: Colors.white,
+                    ),))
+              ],
+            ),
           ),
           appBar: AppBar(
-            title: Text("Catloge",style: TextStyle(color: Colors.black)),
+            title: Text("Catloge"),
+            iconTheme: AppBarTheme.of(context).iconTheme
           ),
         body: SingleChildScrollView(
           child: Column(
@@ -52,7 +58,7 @@ class detailView extends StatelessWidget {
                 arcType: VxArcType.CONVEY,
                 edge: VxEdge.TOP,
                 child: Container(
-                  color: Colors.teal,
+                  color:  Theme.of(context).canvasColor,
                   width: context.screenWidth,
                   height: context.screenHeight,
                   padding: EdgeInsets.fromLTRB(0, 40, 0, 0),
@@ -61,11 +67,11 @@ class detailView extends StatelessWidget {
                       Text(catalog.name,style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 32,
-                        color: Colors.black,
+                        color: Theme.of(context).accentColor,
                       ),),
                       Text(catalog.desc,style: TextStyle(
                         fontSize: 14,
-                        color: Colors.black,
+                        color: Theme.of(context).accentColor,
                       ),),
                     ],
                   ).p16(),

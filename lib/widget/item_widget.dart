@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_first_app/models/catalog.dart';
+import 'package:velocity_x/velocity_x.dart';
+import 'package:flutter_first_app/widget/theme.dart';
+
 
 class ItemWidget extends StatelessWidget {
   final Item item;
@@ -10,6 +13,7 @@ class ItemWidget extends StatelessWidget {
     return Container(
       height: 140,
       child: Card(
+        //shadowColor: Colors.white,
           // child: ListTile(
           //   leading: Container(child: Image.network(item.image)),
           //   title: Text(item.name),
@@ -37,8 +41,10 @@ class ItemWidget extends StatelessWidget {
                 child: Hero(
                   tag: Key(item.id.toString()),
                     child: Image.network(item.image,width: 100,fit: BoxFit.contain)),
+                margin: EdgeInsets.all(10),
                 padding: EdgeInsets.all(8),
                   decoration: BoxDecoration(
+                    color: Theme.of(context).scaffoldBackgroundColor,
                     shape: BoxShape.rectangle,
                     borderRadius: BorderRadius.all(Radius.circular(10.0)),)
               ),
@@ -54,14 +60,14 @@ class ItemWidget extends StatelessWidget {
                       //card Text start
                       Text(item.name,style: TextStyle(
                         fontSize: 16.0,
-                        color: Colors.black87,
+                        color: context.theme.accentColor,
                         fontWeight: FontWeight.bold,
                        ),
                       ),
                       SizedBox(height: 5),
                       Text(item.desc,style: TextStyle(
                         fontSize: 13.3,
-                        color: Colors.black87,
+                        color:  context.theme.accentColor,
                        ),
                       ),
                       //card Text end
@@ -73,13 +79,13 @@ class ItemWidget extends StatelessWidget {
                           children: [
                             Text(item.price.toString()+"\$",style: TextStyle(
                               fontSize: 16.0,
-                              color: Colors.black87,
+                              color:  context.theme.accentColor,
                               fontWeight: FontWeight.bold,
                             ),),
 
                             ElevatedButton(onPressed: (){},
                                 style: ButtonStyle(
-                                  //backgroundColor: MaterialStateProperty.all(),
+                                 backgroundColor: MaterialStateProperty.all(Theme.of(context).primaryColor),
                                   shape: MaterialStateProperty.all(StadiumBorder())
                                 ),
                                 child: Text("Buy",style: TextStyle(
