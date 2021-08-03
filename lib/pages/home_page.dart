@@ -34,7 +34,7 @@ class HomePage extends StatelessWidget{
           shape: CircularNotchedRectangle(),
           color: Theme.of(context).scaffoldBackgroundColor,
           child: BottomNavigationBar(
-            backgroundColor: Theme.of(context).canvasColor,
+            backgroundColor: Colors.transparent ,
             type: BottomNavigationBarType.fixed,
             elevation: 0,
             unselectedItemColor: Colors.grey,
