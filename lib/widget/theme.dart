@@ -6,6 +6,8 @@ import 'package:velocity_x/velocity_x.dart';
 class MyTheme {
   static ThemeData lightTheme(BuildContext context)=> ThemeData(
 
+
+
     appBarTheme: AppBarTheme(
       color: Vx.hexToColor("#042b3d"),
       elevation: 0.0,
